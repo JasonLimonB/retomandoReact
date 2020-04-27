@@ -1,0 +1,18 @@
+.Container{
+    background: #f5f5f5;
+    color: #000;
+}
+
+.btn{
+    margin-top: 15px;
+    width: 200px;
+    height: 30px;
+    background: #ffffff;
+    border: 1px solid #626EE3;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background:#626EE3;
+    color: #ffffff;
+}
