@@ -1,0 +1,50 @@
+.contEstados{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #F6F9FC;
+    height: 30vh;
+}
+.c{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.otro{
+    height: 80px;
+    width: 200px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 29px rgba(92,141,255,.22);
+    /*box-shadow: 0 2px 4px rgba(50,50,93,.1);*/
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn{
+    width: 100%;
+    height: 30px;
+    background: #ffffff;
+    border: 1px solid #626EE3;
+    font-size: 15px;
+    color: #03203C;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+
+.btn:hover{
+    background: #626EE3;
+    color: #ffffff;
+}
+
+.parrafo{
+    width: 100%;
+}

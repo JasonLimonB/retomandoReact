@@ -16,6 +16,7 @@ class Ejemplo extends React.Component{
                 <p> { this.state.contador } </p>
                 <button type="button" onClick={this.sumar} >Sumar</button>
                 <button type="button" onClick={this.restar}  >Restar</button>
+                
             </div>
         );
     }
