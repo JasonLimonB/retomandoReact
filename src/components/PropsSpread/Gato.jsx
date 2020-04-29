@@ -3,8 +3,13 @@ import React from 'react';
 const Gato = (props) =>{
 
     const cat = "🐈";
+
+    const estilos = {
+        marginBottom: "50px"
+    }
+
     return (
-        <div>
+        <div style={estilos}>
             <h1>Gato {cat}</h1>
             <pre>
                 { JSON.stringify(props, null, 4) }

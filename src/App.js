@@ -7,6 +7,7 @@ import AddStyles from './components/EstilosComponent/AddStyles';
 import NuevoEstado from './components/NuevoEstado';
 import SpreadComponent from './components/SpreadComponent';
 import Gato from './components/PropsSpread';
+import EventosComponent from './components/EventosComponent';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <NuevoEstado titleButton="Nuevo Contador" />
       <SpreadComponent />
       <Gato name="Pumba" edad="5 años" {...otrosDatos} />
+      <EventosComponent />
     </div>
   );
 }
