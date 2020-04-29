@@ -10,7 +10,7 @@ class NuevoEstado extends React.Component{
 
  /* Esta es una forma de modificar el estado siempre y cuando no se tengan que ver afectadas las props o fueron afectadas, para que solo se afecte el state pasamos al state un funcion */
     /* sumar = ()=>(this.setState({numero: this.state.numero + 1})); */
-
+    /* para este caso debemos usar la funcion de flecha y no solo declarar el metodo sumar() si no que usar sumar = () =>{} */
     sumar = ()=>{
 
         /* La funcion que se pasa por parametro en el setSatate debe retornar el nuevo valor del state */
